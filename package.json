@@ -1,0 +1,46 @@
+{
+  "name": "automacaoinstitucionallacrei",
+  "version": "1.0.0",
+  "description": "Automação de testes para a plataforma institucional da Lacrei.",
+  "keywords": [
+    "cypress",
+    "automation",
+    "gherkin"
+  ],
+  "homepage": "https://github.com/Lacrei/lacrei-institucional#readme",
+  "bugs": {
+    "url": "https://github.com/Lacrei/lacrei-institucional/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lacrei/lacrei-institucional.git"
+  },
+  "license": "ISC",
+  "author": "KarenQA",
+  "type": "commonjs",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "dev": "webpack serve --open",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@cucumber/cucumber": "^11.1.1",
+    "@types/cypress": "^0.1.6",
+    "@types/node": "^22.10.4",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "cypress": "^12.17.4",
+    "gherkin-loader": "^0.0.1",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
